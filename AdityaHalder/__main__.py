@@ -112,7 +112,7 @@ I Aᴍ Rᴀᴅʜᴀ, Aɴ Aᴅᴠᴀɴᴄᴇᴅ UsᴇʀBᴏᴛ Wɪᴛʜ Sᴏᴍ�
 @robot.on_message(command(["start"]) & filters.private)
 async def start(_, message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e3daf3d0d000dbeea105d.mp4",
+        photo=f"https://graph.org/file/3fa60f2b12c8399ab4dad.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 Hᴇʟʟᴏ, I Aᴍ Rᴀᴅʜᴀ » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
 Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
