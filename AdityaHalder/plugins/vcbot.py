@@ -176,7 +176,7 @@ async def play(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
-        await lel.edit("**💥 𝐊𝐚𝐚𝐥🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+        await lel.edit("**✨ ᴀᴅᴅᴇᴅ ꜱᴏɴɢ\n✨ ᴀᴛ ✨ ᴩᴏꜱɪᴛɪᴏɴ » `{}` 🥀 ...**".format(position),
     )
     else:
         await clientbot.pytgcalls.join_group_call(
@@ -189,7 +189,7 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await lel.edit("**💥 𝐊𝐚𝐚𝐥🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+        await lel.edit("**✨ ᴍᴜꜱɪᴄ 🎸 ɴᴏᴡ 💞\n🔊 ᴩʟᴀyɪɴɢ🥀 ...**".format(),
         )
 
     return await lel.delete()
@@ -204,11 +204,11 @@ async def pause(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        noac = await message.reply_text("**💥 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        noac = await message.reply_text("**💥 ɴᴏᴛʜɪɴɢ ᴩʟᴀyɪɴɢ 🥀 ...**")
         await noac.delete()
     else:
         await clientbot.pytgcalls.pause_stream(message.chat.id)
-        pase = await message.reply_text("**▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**")
+        pase = await message.reply_text("**▶️ Pᴀᴜsᴇᴅ ✨ ...**")
         await pase.delete()
 
 @Client.on_message(commandpro([".rsm", "rsm"]) & SUDOERS)
@@ -219,11 +219,11 @@ async def resume(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        noac = await message.reply_text("**💥 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        noac = await message.reply_text("**ɴᴏᴛʜɪɴɢ ᴩʟᴀyɪɴɢ 🥀 ...**")
         await noac.delete()
     else:
         await clientbot.pytgcalls.resume_stream(message.chat.id)
-        rsum = await message.reply_text("**⏸ 𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🌷 ...**")
+        rsum = await message.reply_text("**ʀᴇꜱᴜᴍᴇᴅ ✨ ...**")
         await rsum.delete()
 
 
@@ -236,7 +236,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-       novc = await message.reply_text("**💥 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+       novc = await message.reply_text("**ɴᴏᴛʜɪɴɢ ᴩʟᴀyɪɴɢ 🥀 ...**")
        await novc.delete()
     else:
         queues.task_done(chat_id)
@@ -246,7 +246,7 @@ async def skip(_, message: Message):
             await empt.delete()
             await clientbot.pytgcalls.leave_group_call(chat_id)
         else:
-            next = await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**")
+            next = await message.reply_text("**➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺**")
             await next.delete()
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
@@ -267,7 +267,7 @@ async def stop(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        noac = await message.reply_text("**💥 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        noac = await message.reply_text("**ɴᴏᴛʜɪɴɢ ᴩʟᴀyɪɴɢ 🤭 ...**")
         await noac.delete()
         return
     else:
@@ -277,18 +277,18 @@ async def stop(_, message: Message):
             pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    leav = await message.reply_text("**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**")
+    leav = await message.reply_text("**➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺**")
     await leav.delete()
 
 
 @Client.on_message(commandpro([".song", "sng", ".sng", ".msc", "msc"]) & SUDOERS)
 async def song(client, message):
-    cap = "**🥀 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 ː [𝐌𝐫᭄'𝐊𝐚𝐚𝐋-𝐱𝐃](https://t.me/iamkaal)**"
-    rkp = await message.reply("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+    cap = "**🥀 Uᴘʟᴏᴀᴅᴇᴅ Bʏ ː [Rᴀᴅʜᴀ Sɪɴɢʜ](https://t.me/MissRadha)**"
+    rkp = await message.reply("**🔄 ᴩʀᴏᴄᴇꜱꜱɪɴɢ ...**")
 
     if len(message.command) < 2:
             return await rkp.edit(
-                "**𝐆𝐢𝐯𝐞 🥀 𝐒𝐨𝐧𝐠 😔 𝐍𝐚𝐦𝐞 ...**"
+                "**ɢɪʙᴇ ꜱᴏɴɢ ɴᴀᴍᴇ 😒 ...**"
             )
     url = message.text.split(None, 1)[1]
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
@@ -298,7 +298,7 @@ async def song(client, message):
     try:
         url = q[0]["link"]
     except BaseException:
-        return await rkp.edit("**𝐒𝐨𝐧𝐠 🥀 𝐍𝐨𝐭 😔 𝐅𝐨𝐮𝐧𝐝 ...**")
+        return await rkp.edit("**ꜱᴏɴɢ ɴᴏᴛ ꜰᴏᴜɴᴅ 🥺 ...**")
     type = "audio"
     if type == "audio":
         opts = {
@@ -322,7 +322,7 @@ async def song(client, message):
         }
         song = True
     try:
-        await rkp.edit("**📩 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...**")
+        await rkp.edit("**📩 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ...**")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -356,7 +356,7 @@ async def song(client, message):
         return
     time.time()
     if song:
-        await rkp.edit("**📤 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...**")
+        await rkp.edit("**📤 Uᴩʟᴏᴀᴅɪɴɢ ...**")
         lol = "./AdityaHalder/resource/logo.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
@@ -377,7 +377,7 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     a[message.chat.id] = new_admins
-    cach = await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**")
+    cach = await message.reply_text("**ʀᴇʟᴏᴀᴅᴇᴅ ʙᴀʙy✨ ...**")
     await cach.delete()
 
 
