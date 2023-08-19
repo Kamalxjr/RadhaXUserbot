@@ -53,11 +53,11 @@ async def update_bot(_, message: Message):
     msg = await message.edit("**🥀 ᴄʜᴇᴄᴋɪɴɢ ᴜᴘᴅᴀᴛᴇs ✨ ...**")
     update_avail = updater()
     if update_avail:
-        await msg.edit("**🥀 Gᴇɴɪᴜs UsᴇʀBᴏᴛ Uᴘᴅᴀᴛᴇᴅ\nTᴏ Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ 🔥 ...\n\n💕 Rᴇsᴛᴀʀᴛɪɴɢ: Gᴇɴɪᴜs Usᴇʀ\nBᴏᴛ, Pʟᴇᴀsᴇ » Wᴀɪᴛ ✨ ...**")
+        await msg.edit("**🥀 Rᴀᴅʜᴀ UsᴇʀBᴏᴛ Uᴘᴅᴀᴛᴇᴅ\nTᴏ Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ 🔥 ...\n\n💕 Rᴇsᴛᴀʀᴛɪɴɢ: Rᴀᴅʜᴀ Usᴇʀ\nBᴏᴛ, Pʟᴇᴀsᴇ » Wᴀɪᴛ ✨ ...**")
         system("git pull -f && pip3 install -U -r Installer")
         system("python3 -m AdityaHalder")
         return
-    await msg.edit(f"**🥀 Gᴇɴɪᴜs UsᴇʀBᴏᴛ Aʟʀᴇᴀᴅʏ\nUᴘᴅᴀᴛᴇᴅ Tᴏ Lᴀᴛᴇsᴛ 🔥 ...\n\n💕 Fᴏʀ Aɴʏ Qᴜᴇʀʏ › Cᴏɴᴛᴀᴄᴛ\nTᴏ » @AdityaHalder ✨ ...**")
+    await msg.edit(f"**🥀 Rᴀᴅʜᴀ UsᴇʀBᴏᴛ Aʟʀᴇᴀᴅʏ\nUᴘᴅᴀᴛᴇᴅ Tᴏ Lᴀᴛᴇsᴛ 🔥 ...\n\n💕 Fᴏʀ Aɴʏ Qᴜᴇʀʏ › Cᴏɴᴛᴀᴄᴛ\nTᴏ » @RadhaX2Support ✨ ...**")
 
 __MODULE__ = "Uᴘᴅᴀᴛᴇ"
 __HELP__ = f"""
@@ -66,5 +66,5 @@ __HELP__ = f"""
 **🥀 Tʜɪs Pʟᴜɢɪɴ Fᴏʀ Uᴘᴅᴀᴛᴇ Yᴏᴜʀ Usᴇʀ Bᴏᴛ**
 
 **🇮🇳 Cᴏᴍᴍᴀɴᴅ :**
-`.update` - __Tᴏ Uᴘᴅᴀᴛᴇ Gᴇɴɪᴜs UsᴇʀBᴏᴛ Tᴏ Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ ...__
+`.update` - __Tᴏ Uᴘᴅᴀᴛᴇ Rᴀᴅʜᴀ UsᴇʀBᴏᴛ Tᴏ Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ ...__
 """
