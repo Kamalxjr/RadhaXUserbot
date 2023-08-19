@@ -9,7 +9,7 @@ from AdityaHalder.utilities.misc import SUDOERS
 
 @Client.on_message(command(["alive"]) & SUDOERS)
 async def mother_chod(client: Client, message: Message):
-    await edit_or_reply(message, "**🥀 I Aᴍ Aʟɪᴠᴇ Mʏ Dᴇᴀʀ Gᴇɴɪᴜs Mᴀsᴛᴇʀ ✨ ...**")
+    await edit_or_reply(message, "**🥀 I Aᴍ Aʟɪᴠᴇ Mʏ Dᴇᴀʀ Mᴀsᴛᴇʀ ✨ ...**")
 
 
 
