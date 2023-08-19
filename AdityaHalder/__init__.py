@@ -76,7 +76,7 @@ async def initiate_bot():
     )
     console.print(header)
     with console.status(
-        "[magenta] Genius UserBot Booting...",
+        "[magenta] Radha UserBot Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Bot Clients...\n")
         await robot.start()
