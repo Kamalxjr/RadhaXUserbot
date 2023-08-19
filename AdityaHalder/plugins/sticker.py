@@ -270,7 +270,7 @@ def resize_image(image):
         im = im.resize(sizenew)
     else:
         im.thumbnail(maxsize)
-    file_name = "Kanged_Sticker_NEXAUB.png"
+    file_name = "Kanged_Sticker_RadhaUb.png"
     im.save(file_name, "PNG")
     if os.path.exists(image):
         os.remove(image)
