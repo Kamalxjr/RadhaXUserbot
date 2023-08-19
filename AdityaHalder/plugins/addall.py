@@ -32,5 +32,5 @@ __MODULE__ = "Aᴅᴅ Aʟʟ"
 __HELP__ = f"""
 `.addall [@groupusername]` **- Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Aᴅᴅ Mᴇᴍʙᴇʀs Iɴ Yᴏᴜʀ Cʜᴀᴛ**
 
-**Ex:-** `.addall @adityadiscus`
+**Ex:-** `.addall @RadhaX2Support`
 """
