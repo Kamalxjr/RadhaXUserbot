@@ -240,8 +240,8 @@ async def kang_stick(app: Client, message: Message):
         await app.send_message("Stickers", packshortname)
         await kang_msg.edit("**Sticker Kanged!** \n\n**Emoji:** {} \n**Pack:** [Here](https://t.me/addstickers/{})".format(emoji, packshortname))
         try:
-            if os.path.exists("Kanged_Sticker_GENIUS.png"):
-                os.remove("Kanged_Sticker_GENIUS.png")
+            if os.path.exists("Kanged_Sticker_RADHA.png"):
+                os.remove("Kanged_Sticker_RADHA.png")
             downname = "./handlers/cache"
             if os.path.isdir(downname):
                 shutil.rmtree(downname)
