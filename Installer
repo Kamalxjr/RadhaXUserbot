@@ -14,7 +14,7 @@ psutil
 requests
 rich
 dnspython
-git+https://github.com/ADITYAxSERVER/downloader
+git+https://github.com/Radhak8/yt-dlp
 tgcrypto
 gitpython
 heroku3
