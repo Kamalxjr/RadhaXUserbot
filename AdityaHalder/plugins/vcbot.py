@@ -96,7 +96,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+        thumb_name = "https://graph.org/file/cce4e1773fdf39d1b0a7c.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -137,13 +137,13 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
            return await lel.edit(
-                "**🤖 𝐖𝐡𝐚𝐭 🙃 𝐘𝐨𝐮 💿 𝐖𝐚𝐧𝐭 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲❓**"
+                "**✨ ᴡʜᴀᴛ 😍 yᴏᴜ 😗 ᴡᴀɴᴛ 😍\n💞 ᴛᴏ 🔊 ᴩʟᴀy❓**"
             ) and await lel.delete()
 
-        await lel.edit("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+        await lel.edit("**🔎 ꜱᴇᴀʀᴄʜɪɴɢ ʙᴀʙɪɪᴇ ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**✅ 𝐅𝐢𝐧𝐚𝐥𝐢𝐳𝐢𝐧𝐠 ...**")
+        await lel.edit("**✅ ꜰɪɴᴀʟɪᴢɪɴɢ ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -162,7 +162,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 𝐌𝐮𝐬𝐢𝐜 😕 𝐍𝐨𝐭 📵 𝐅𝐨𝐮𝐧𝐝❗️\n💞 𝐓𝐫𝐲 ♨️ 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 🌷...**"
+                "**🔊 ᴍᴜꜱɪᴄ 😕 ɴᴏᴛ 📵 ꜰᴏᴜɴᴅ ʙᴀʙy❗️\n💞 ᴛʀy ♨️ ᴀɴᴏᴛʜᴇʀ 🌷...**"
             ) and await lel.delete()
             print(str(e))
             return
