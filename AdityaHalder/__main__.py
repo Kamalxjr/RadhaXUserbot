@@ -118,19 +118,19 @@ async def start(_, message):
 Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Cʀᴇᴀᴛᴏʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/adityahalder)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/adityadiscus)
+┣★ Cʀᴇᴀᴛᴏʀ'xD› : [Rᴀᴅʜᴀ Sɪɴɢʜ](https://t.me/MissRadha)
+┣★ Uᴘᴅᴀᴛᴇs ›› : [Sᴜᴘᴘᴏʀᴛ](https://t.me/RadhaX2Support)
+┣★ Sᴜᴘᴘᴏʀᴛ » : [Uᴘᴅᴀᴛᴇs](https://t.me/RadhaX2Update)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
 💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
-Yᴏᴜʀ Oᴡɴ » Gᴇɴɪᴜs Usᴇʀ Bᴏᴛ.
+Yᴏᴜʀ Oᴡɴ » Rᴀᴅʜᴀ Usᴇʀ Bᴏᴛ.
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Dᴇᴘʟᴏʏ Gᴇɴɪᴜs UsᴇʀBᴏᴛ ✨", url=f"https://github.com/GeniusBoi/Genius-UserBot")
+                        "💥 Dᴇᴘʟᴏʏ Rᴀᴅʜᴀ UsᴇʀBᴏᴛ ✨", url=f"https://github.com/Radhak8/RadhaXUserBot")
                 ]
                 
            ]
@@ -152,10 +152,10 @@ async def help_parser(name, keyboard=None):
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
         """**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+Rᴀᴅʜᴀ UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
 
 💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+Tᴏ Gᴇᴛ Rᴀᴅʜᴀ Cᴏᴍᴍᴀɴᴅs ✨...**
 """.format(
             first_name=name
         ),
@@ -181,10 +181,10 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
     top_text = f"""**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+Rᴀᴅʜᴀ UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
 
 💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+Tᴏ Gᴇᴛ Rᴀᴅʜᴀ Cᴏᴍᴍᴀɴᴅs ✨...**
  """
     if mod_match:
         module = mod_match.group(1)
