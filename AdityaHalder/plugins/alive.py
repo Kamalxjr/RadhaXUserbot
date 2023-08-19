@@ -1,4 +1,4 @@
-# AdityaHalder
+# MissRadha
 import asyncio
 from pyrogram import *
 from pyrogram.types import *
