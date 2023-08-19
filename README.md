@@ -1,14 +1,13 @@
-### 🥀 𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐚𝐧𝐝 𝐁𝐞𝐬𝐭 𝐒𝐦𝐚𝐫𝐭 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐖𝐢𝐭𝐡 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐚𝐬𝐞𝐝 𝐎𝐧 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 ✨ ...
+### 🥀 ᴀɴ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ʙᴇꜱᴛ ꜱᴍᴀʀᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴜꜱᴇʀʙᴏᴛ ᴡɪᴛʜ ᴠᴄ ᴩʟᴀyᴇʀ ʙᴀꜱᴇᴅ ᴏɴ ᴩyʀᴏɢʀᴀᴍ
 
-
-<p align="center"><a href="https://t.me/adityahalder"><img src="https://telegra.ph/file/027283ee9defebc3298b8.png"></a></p>
+<p align="center"><a href="https://t.me/RadhaX2Support"><img src="https://graph.org/file/e226968da3698dd09a307.jpg"></a></p>
 
 
 
 
 ### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐓𝐨 𝐇𝐞𝐫𝐨𝐤𝐮
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XdityaHalder/GeniusUserbot)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RadhaK8/RadhaXUserBot)
 
 
 
