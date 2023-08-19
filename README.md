@@ -11,13 +11,16 @@
 
 
 
-### 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧
+# Pʏʀᴏɢʀᴀᴍ Sᴇssɪᴏɴ Sᴛʀɪɴɢ
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@AdityaHalder/PyrogramStringSession)
+- [BᴏᴛLɪɴᴋ](https://t.me/RADHA_STRING_ROBOT)
+
+- Bᴏᴛ Usᴇʀɴᴀᴍᴇ - `@RADHA_STRING_ROBOT`
+
+━━━━━━━━━━━━━━━━━━━━━━
 
 
-
-#### 𝑪𝒐𝒑𝒚 𝑷𝒂𝒔𝒕𝒆𝒓𝒔 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑪𝒐𝒑𝒚 𝑻𝒉𝒊𝒔, 𝑩𝒖𝒕 𝑴𝒖𝒔𝒕 𝑮𝒊𝒗𝒆 𝑪𝒓𝒆𝒅𝒊𝒕𝒔 ...
+
 
 ### 𝐎𝐰𝐧𝐞𝐫 𝐎𝐟 𝐓𝐡𝐢𝐬 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲
-[![Radha Singh](https://graph.org/file/72ee8cb61ee28bfe9e76f.jpg)](https://t.me/MissRadha)
+[![Radha Singh](https://graph.org/file/72ee8cb61ee28bfe9e76f.jpg)](https://t.me/MissRadha)
