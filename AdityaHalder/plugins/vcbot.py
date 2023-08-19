@@ -79,7 +79,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔄 ᴩʀᴏᴄᴇꜱꜱɪɴɢ ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -128,7 +128,7 @@ async def play(_, message: Message):
             
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://graph.org/file/cce4e1773fdf39d1b0a7c.jpg"
             duration = "NaN"
             views = "NaN"
 
