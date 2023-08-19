@@ -24,7 +24,7 @@ async def kaalub_info(user):
         return kk["reason"]
 
 
-# Aditya Halder // @AdityaHalder
+# Updates // @RadhaX2Update
 
 Lbun = dbb["LBAN"]
 
