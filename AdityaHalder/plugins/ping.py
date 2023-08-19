@@ -7,10 +7,10 @@ from AdityaHalder.utilities.misc import SUDOERS
 @Client.on_message(filters.command(["ping"], ["/", ".", "!"]) & SUDOERS)
 async def ping(Client, message):
     start = datetime.now()
-    loda = await message.reply_text("**» Gᴇɴɪᴜs**")
+    loda = await message.reply_text("**» Rᴀᴅʜᴀ**")
     end = datetime.now()
     mp = (end - start).microseconds / 1000
-    await loda.edit_text(f"**🤖 Poɴɢ\n»** `{mp} ms`")
+    await loda.edit_text(f"**✨ Poɴɢ\n»** `{mp} ms`")
 
 
 __MODULE__ = "Pɪɴɢ"
