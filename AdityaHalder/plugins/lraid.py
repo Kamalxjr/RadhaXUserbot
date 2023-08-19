@@ -1,4 +1,4 @@
-# Kang With Credit » @AdityaHalder
+# MissRadha
 
 import random
 from typing import Tuple
