@@ -10,7 +10,7 @@ async def ping(Client, message):
     loda = await message.reply_text("**» Rᴀᴅʜᴀ**")
     end = datetime.now()
     mp = (end - start).microseconds / 1000
-    await loda.edit_text(f"**✨ Poɴɢ\n»** `{mp} ms`")
+    await loda.edit_text(f"**ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙɪɪᴇ ✨\n»** `{mp} ms`")
 
 
 __MODULE__ = "Pɪɴɢ"
